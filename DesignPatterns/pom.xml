@@ -9,26 +9,22 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wrk</groupId>
-    <artifactId>JavaSpiderDemo</artifactId>
-
+    <artifactId>DesignPatterns</artifactId>
 <dependencies>
+    <!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
     <dependency>
-        <groupId>com.alibaba</groupId>
-        <artifactId>fastjson</artifactId>
-        <version>1.2.72</version>
+        <groupId>cglib</groupId>
+        <artifactId>cglib-nodep</artifactId>
+        <version>3.3.0</version>
+        <scope>test</scope>
     </dependency>
     <dependency>
-        <groupId>org.apache.httpcomponents</groupId>
-        <artifactId>httpclient</artifactId>
-        <version>4.5.12</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
-    <dependency>
-        <groupId>org.jsoup</groupId>
-        <artifactId>jsoup</artifactId>
-        <version>1.13.1</version>
+        <groupId>cglib</groupId>
+        <artifactId>cglib-nodep</artifactId>
+        <version>3.3.0</version>
+        <scope>compile</scope>
     </dependency>
 
 </dependencies>
+
 </project>

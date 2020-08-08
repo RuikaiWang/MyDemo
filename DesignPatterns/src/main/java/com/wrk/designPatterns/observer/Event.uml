@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wrk.designPatterns.observer.Event</OriginalElement>
+  <nodes>
+    <node x="125.44805194805193" y="0.0">com.wrk.designPatterns.observer.Event</node>
+    <node x="0.0" y="103.0">com.wrk.designPatterns.observer.MyEvent</node>
+    <node x="135.5" y="103.0">com.wrk.designPatterns.observer.ObserverInterface</node>
+    <node x="172.58441558441558" y="319.0">com.wrk.designPatterns.observer.Source</node>
+    <node x="250.5" y="206.0">com.wrk.designPatterns.observer.Observer2</node>
+    <node x="84.5" y="206.0">com.wrk.designPatterns.observer.Observer1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wrk.designPatterns.observer.Observer1" target="com.wrk.designPatterns.observer.ObserverInterface">
+      <point x="30.0" y="-26.5" />
+      <point x="174.5" y="181.0" />
+      <point x="158.5" y="181.0" />
+      <point x="-69.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Observer1" target="com.wrk.designPatterns.observer.Source">
+      <point x="30.0" y="26.5" />
+      <point x="174.5" y="279.0" />
+      <point x="206.87012987012986" y="279.0" />
+      <point x="-13.714285714285722" y="-26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Observer2" target="com.wrk.designPatterns.observer.Source">
+      <point x="30.0" y="26.5" />
+      <point x="340.5" y="299.0" />
+      <point x="261.72727272727275" y="299.0" />
+      <point x="41.14285714285714" y="-26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Observer2" target="com.wrk.designPatterns.observer.Event">
+      <point x="30.0" y="-26.5" />
+      <point x="340.5" y="73.0" />
+      <point x="202.44805194805193" y="73.0" />
+      <point x="33.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Source" target="com.wrk.designPatterns.observer.ObserverInterface">
+      <point x="0.0" y="-26.5" />
+      <point x="220.58441558441558" y="299.0" />
+      <point x="222.0" y="299.0" />
+      <point x="222.0" y="181.0" />
+      <point x="204.5" y="181.0" />
+      <point x="-23.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Observer1" target="com.wrk.designPatterns.observer.Event">
+      <point x="-30.0" y="-26.5" />
+      <point x="114.5" y="83.0" />
+      <point x="158.44805194805193" y="83.0" />
+      <point x="-11.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Source" target="com.wrk.designPatterns.observer.Observer2">
+      <point x="27.428571428571416" y="-26.5" />
+      <point x="248.012987012987" y="289.0" />
+      <point x="280.5" y="289.0" />
+      <point x="-30.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Source" target="com.wrk.designPatterns.observer.Observer1">
+      <point x="-27.428571428571445" y="-26.5" />
+      <point x="193.15584415584414" y="289.0" />
+      <point x="114.5" y="289.0" />
+      <point x="-30.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Source" target="com.wrk.designPatterns.observer.MyEvent">
+      <point x="-41.14285714285714" y="-26.5" />
+      <point x="179.44155844155844" y="299.0" />
+      <point x="52.0" y="299.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.MyEvent" target="com.wrk.designPatterns.observer.Event">
+      <point x="0.0" y="-26.5" />
+      <point x="52.0" y="73.0" />
+      <point x="136.44805194805193" y="73.0" />
+      <point x="-33.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.Observer2" target="com.wrk.designPatterns.observer.ObserverInterface">
+      <point x="-30.0" y="-26.5" />
+      <point x="280.5" y="181.0" />
+      <point x="296.5" y="181.0" />
+      <point x="69.0" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.observer.ObserverInterface" target="com.wrk.designPatterns.observer.Event">
+      <point x="0.0" y="-26.5" />
+      <point x="227.5" y="83.0" />
+      <point x="180.44805194805193" y="83.0" />
+      <point x="11.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.0" y="198.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wrk.designPatterns.strategy.StrategyImpl1</OriginalElement>
+  <nodes>
+    <node x="172.0" y="103.0">com.wrk.designPatterns.strategy.StrategyMethodClass</node>
+    <node x="180.0" y="0.0">com.wrk.designPatterns.strategy.StrategyInterface</node>
+    <node x="392.0" y="103.0">com.wrk.designPatterns.strategy.StrategyImpl1</node>
+    <node x="0.0" y="103.0">com.wrk.designPatterns.strategy.StrategyImpl2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wrk.designPatterns.strategy.StrategyImpl2" target="com.wrk.designPatterns.strategy.StrategyInterface">
+      <point x="0.0" y="-26.5" />
+      <point x="76.0" y="78.0" />
+      <point x="210.66666666666666" y="78.0" />
+      <point x="-61.33333333333334" y="26.5" />
+    </edge>
+    <edge source="com.wrk.designPatterns.strategy.StrategyImpl1" target="com.wrk.designPatterns.strategy.StrategyInterface">
+      <point x="0.0" y="-26.5" />
+      <point x="468.0" y="78.0" />
+      <point x="333.33333333333337" y="78.0" />
+      <point x="61.33333333333337" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="272.0" y="78.0" />
+  <SelectedNodes>
+    <node>com.wrk.designPatterns.strategy.StrategyImpl1</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
